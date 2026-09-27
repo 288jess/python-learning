@@ -1,0 +1,18 @@
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 测试缓存
+.pytest_cache/
+
+# 运行数据与日志（这些不该进 Git）
+todo.json
+*.log
+.env
